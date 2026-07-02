@@ -1,0 +1,21 @@
+{
+  "name": "tms.io",
+  "version": "1.0.0",
+  "description": "سیستم جامع مدیریت حمل و نقل - Transportation Management System",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
